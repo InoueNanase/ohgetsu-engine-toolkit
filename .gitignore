@@ -1,0 +1,22 @@
+# 构建产物与本地测试数据
+build_test/
+*.dll
+*.o
+*.obj
+*.exe
+__pycache__/
+*.pyc
+
+# 不要在仓库里放游戏资源 / 字库 / 译文
+*.PAC
+*.pac
+font.bin
+*.jsonl
+glyphs/
+cn_map.c
+cn_map.bin
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
